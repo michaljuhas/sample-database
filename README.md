@@ -4,8 +4,10 @@
 
 ### 1. Clone repository
 
-* Create a new directory on your localhost
-* Clone GitHub repository `git clone git@github.com:michaljuhas/sample-database.git`
+1. Create a new directory on your localhost
+2. Clone GitHub repository
+
+`git clone git@github.com:michaljuhas/sample-database.git`
 
 ### 2. Unzip SQL files
 
@@ -26,8 +28,10 @@ tar -xzf sample_staff.tar.gz
 
 Load the data to your local MySQL database
 
-`mysql -u root sample_ip < sample_ip.sql`
-`mysql -u root sample_staff < sample_staff.sql`
+```
+mysql -u root sample_ip < sample_ip.sql
+mysql -u root sample_staff < sample_staff.sql
+```
 
 And you're done! Enjoy and check my course on Udemy:
 
