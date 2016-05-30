@@ -5,9 +5,13 @@
 ### 1. Clone repository
 
 1. Create a new directory on your localhost
-2. Clone GitHub repository
+2. Clone GitHub repository using either SSH or HTTPS URL:
 
-`git clone git@github.com:michaljuhas/sample-database.git`
+Use HTTPS URL: `git clone https://github.com/michaljuhas/sample-database.git`
+
+or alternatively the SSH URL: `git clone git@github.com:michaljuhas/sample-database.git`
+
+You can read more about [Which remote URL should I use?](https://help.github.com/articles/which-remote-url-should-i-use/).
 
 ### 2. Unzip SQL files
 
