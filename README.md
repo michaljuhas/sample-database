@@ -15,7 +15,7 @@ You can read more about [Which remote URL should I use?](https://help.github.com
 
 ### 2. Unzip SQL files
 
-Go to a sub-folder - either `/MySQL/` or `/PostgreSQL/` and decompress all `.tar.gz` files:
+Go to a sub-folder - either `/MySQL/` and decompress all `.tar.gz` files:
 
 First, extract the first file:
 
