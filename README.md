@@ -67,6 +67,8 @@ mysql -u root sample_ip < sample_ip.sql
 mysql -u root sample_staff < sample_staff.sql
 ```
 
+## Enjoy the course
+
 And you're done! Enjoy and check my course on Udemy:
 
 * [Practice advanced SQL with MySQL](https://www.udemy.com/practice-advanced-sql-with-mysql/)
