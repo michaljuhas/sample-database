@@ -84,6 +84,10 @@ mysql -u root sample_ip < sample_ip.sql
 mysql -u root sample_staff < sample_staff.sql
 ```
 
+## ℹ️ info
+
+Quite a lot of people ask why the `user_stat` table is empty. It's intentional - you will fill it in one of the lessons. Have fun! :)
+
 ## Enjoy the course
 
 And you're done! Enjoy and check my course on Udemy:
