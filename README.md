@@ -62,6 +62,9 @@ copy /b sample_staff_aa + sample_staff_ab + sample_staff_ac sample_staff.tar.gz
 
 **Third,**  extract  the SQL file from the (newly merged) archive `sample_staff.tar.gz`. You may want to use [7-Zip](http://www.7-zip.org/) again.
 
+## ...or if you use Workbench
+
+You can also import the `.sql` files to MySQL Workbench. Just select in menu `File - Run SQL Script`. No need to "Open" it, just Run it.
 
 ## 3. Load to your local database
 
