@@ -1,72 +1,12 @@
 # How to import the database
 
-## 1. Clone repository
+## 1. Download the SQL files
 
-1. Create a new directory on your localhost
-2. Clone GitHub repository using either SSH or HTTPS URL:
+Here's a direct link to download two SQL files from Dropbox:
 
-Use HTTPS URL: 
+https://www.dropbox.com/sh/qlzk2hdr5zfdydy/AACn_O87ALIBA3rG_oXuYUBoa?dl=0​
 
-```
-git clone https://github.com/michaljuhas/sample-database.git
-```
-
-or alternatively the SSH URL: 
-
-```
-git clone git@github.com:michaljuhas/sample-database.git
-```
-
-You can read more about [Which remote URL should I use?](https://help.github.com/articles/which-remote-url-should-i-use/).
-
-## 2. Unzip SQL files
-
-There are two databases:
-
-* `sample_ip` (a relatively small file)
-* `sample_staff` (a large DB file, so I had to split it to 3 files and you'll need to merge them)
-
-### On Mac
-
-Go to the sub-folder `/MySQL/`:
-
-**First,** extract the SQL file from the first archive `sample_ip.tar.gz`:
-
-```
-tar -xzf sample_ip.tar.gz
-```
-
-**Second,** merge the three files (`sample_staff_aa` + `sample_staff_ab` + `sample_staff_ac`) into one:
-
-```
-cat sample_staff_* > sample_staff.tar.gz
-```
-
-**Third,** extract the SQL file from the (newly merged) archive `sample_staff.tar.gz`.
-
-```
-tar -xzf sample_staff.tar.gz
-```
-
-### On Windows
-
-Go to the sub-folder `/MySQL/`:
-
-**First,** extract the first file `sample_ip.tar.gz`. You may want to use [7-Zip](http://www.7-zip.org/).
-
-**Second,** merge the three files (`sample_staff_aa` + `sample_staff_ab` + `sample_staff_ac`) into one:
-
-```
-copy /b sample_staff_aa + sample_staff_ab + sample_staff_ac sample_staff.tar.gz
-```
-
-**Third,**  extract  the SQL file from the (newly merged) archive `sample_staff.tar.gz`. You may want to use [7-Zip](http://www.7-zip.org/) again.
-
-## ...or if you use Workbench
-
-You can also import the `.sql` files to MySQL Workbench. Just select in menu `File - Run SQL Script`. No need to "Open" it, just Run it.
-
-## 3. Load to your local database
+## 2. Load to your local database
 
 Now, you need to load the data to your local MySQL database.
 
@@ -86,6 +26,11 @@ mysql -u root sample_ip < sample_ip.sql
 ```
 mysql -u root sample_staff < sample_staff.sql
 ```
+
+## ...or if you use Workbench
+
+You can also import the `.sql` files to MySQL Workbench. Just select in menu `File - Run SQL Script`. No need to "Open" it, just Run it.
+
 
 ## ℹ️ info
 
